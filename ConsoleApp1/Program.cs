@@ -11,6 +11,7 @@ class Prgram
         foreach (var file in fileList)
         {
             Console.WriteLine(file);
+           // File.Delete(file.FullName);
         }
 
         Console.WriteLine("Press aby key to continue ...");
